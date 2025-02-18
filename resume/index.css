@@ -19,6 +19,7 @@ ul {
 h2 {
     background-color: #353535;
     padding: 0.5vw;
+    border-radius: 1vh;
 }
 
 /* Nav Bar */
@@ -36,6 +37,7 @@ nav a {
     padding: 1vh;
     font-weight: bold;
     font-size: 2.5vh;
+    border-radius: 0.5vh;
 }
 
 /* Link Stylings */
@@ -43,7 +45,7 @@ a {
     text-decoration: none;
 }
 a:visited {
-    color: #6552D0
+    color: blue;
 }
 a:hover {
     background-color: yellow;
@@ -52,11 +54,16 @@ a:hover {
 /* List Stylings */
 #tss + ul, #ls + ul, #hs + ul {
     display: flex;
-    width: 50vw;
+    width: auto;
     flex: 1;
     justify-content: space-evenly;
 }
 #tss + ul li, #ls + ul li, #hs + ul li {
     background-color: #6552D0;
     padding: 1vw;
+    border-radius: 5vh;
+}
+
+#tss + ul li:hover, #ls + ul li:hover, #hs + ul li:hover {
+    background-color: #2C3D73;
 }
