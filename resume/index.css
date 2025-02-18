@@ -16,13 +16,18 @@ ul {
     list-style-type: none;
 }
 
+h2 {
+    background-color: #353535;
+    padding: 0.5vw;
+}
 
+/* Nav Bar */
 nav {
     display: flex;
     flex-direction: column;
     flex: 1;
     justify-content:space-evenly;
-    height: 50vh;
+    height: 60vh;
     position: sticky;
     top: 15vh;
 }
@@ -33,14 +38,25 @@ nav a {
     font-size: 2.5vh;
 }
 
-/*--- Link Stylings ---*/
+/* Link Stylings */
 a {
     text-decoration: none;
 }
 a:visited {
-    color:blue
+    color: #6552D0
 }
 a:hover {
     background-color: yellow;
 }
 
+/* List Stylings */
+#tss + ul, #ls + ul, #hs + ul {
+    display: flex;
+    width: 50vw;
+    flex: 1;
+    justify-content: space-evenly;
+}
+#tss + ul li, #ls + ul li, #hs + ul li {
+    background-color: #6552D0;
+    padding: 1vw;
+}
