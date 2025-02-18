@@ -25,6 +25,10 @@ nav {
     top: 20vh;
 }
 
+nav a {
+    padding: 1vh;
+}
+
 /*--- Link Stylings ---*/
 a {
     text-decoration: none;
