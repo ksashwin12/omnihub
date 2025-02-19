@@ -68,8 +68,9 @@ a:hover {
     border-radius: 5vh;
     flex: 1;
     text-align: center;
+    transition: flex 2s;
 }
 
 #tss + ul li:hover, #ls + ul li:hover, #hs + ul li:hover {
-    background-color: #2C3D73;
+    flex: 2;
 }
