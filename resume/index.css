@@ -16,6 +16,9 @@ body {
 ul {
     list-style-type: none;
 }
+h2#work + div ul {
+    list-style-type: disc;
+}
 
 h2 {
     background-color: #353535;
@@ -54,7 +57,7 @@ a:hover {
 }
 
 /* List Stylings */
-#tss + ul, #ls + ul, #hs + ul {
+#tech + ul, #lang + ul, #hobbies + ul {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -62,7 +65,7 @@ a:hover {
     gap: 10vh;
     justify-content: space-evenly;
 }
-#tss + ul li, #ls + ul li, #hs + ul li {
+#tech + ul li, #lang + ul li, #hobbies + ul li {
     background-color: #6552D0;
     padding: 1vw;
     border-radius: 5vh;
@@ -71,6 +74,6 @@ a:hover {
     transition: flex 2s;
 }
 
-#tss + ul li:hover, #ls + ul li:hover, #hs + ul li:hover {
+#tech + ul li:hover, #lang + ul li:hover, #hobbies + ul li:hover {
     flex: 2;
 }
